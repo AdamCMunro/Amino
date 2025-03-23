@@ -4,6 +4,11 @@
     "display": "fullscreen",
     "theme_color": "#1a1a1a",
     "background_color": "#1a1a1a",
-    "start_url": "../index.html",
-    "prefer_related_applications": false
+    "start_url": "./index.html",
+    "prefer_related_applications": false,
+    "icons": [
+        {
+            "src": "icon.png"
+        }
+    ]
   }
