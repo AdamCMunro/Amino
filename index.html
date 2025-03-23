@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="manifest" href="manifest.json">
+    <title>Amino</title>
+
+    <script>
+        if ('serviceWorker' in navigator) {
+          window.addEventListener('load', function() {
+            navigator.serviceWorker.register('/worker.js').then(function(registration) {
+              // Registration was successful
+              console.log('ServiceWorker registration successful with scope: ', registration.scope);
+            }, function(err) {
+              // registration failed :(
+              console.log('ServiceWorker registration failed: ', err);
+            });
+          });
+        }
+      </script>
+
+</head>
+
+<body>
+    <div id="nav" class="colour1">
+        <div class="titleTable">
+            <div class="title">
+                <img src="amino_logo.png">
+            </div>
+            <div class="settings">
+                <img src="settings_icon.svg">
+            </div>
+        </div>
+        <div id="screenMenu">
+            <div class="screenTitle selected">
+                <h3>Workouts</h3>
+            </div>
+            <div class="screenTitle">
+                <h3>Exercises</h3>
+            </div>
+            <div class="screenTitle">
+                <h3>Stacks</h3>
+            </div>
+        </div>
+    </div>
+    <div id="listBox">
+        <div class="heroDiv colour1" id="startWorkoutButton">
+            <h1 class="heroTitle monoton-regular">start new workout</h1>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>

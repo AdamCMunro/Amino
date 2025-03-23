@@ -1,0 +1,644 @@
+:root {
+    --colour1: #ffecc3;
+    --colour2: #cc5600;
+    --colour3: #c2000d;
+    --colour4: #f5cb32;
+    --colour5: #418f43;
+    --colour6: #ffffff8a;
+}
+
+body {
+    padding: 0;
+    background: linear-gradient( var(--colour6), var(--colour1));
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.colour1 {
+    background-color: var(--colour1);
+}
+
+.colour2 {
+    background-color: var(--colour2);
+}
+
+.colour3 {
+    background-color: var(--colour3);
+}
+
+.colour4 {
+    background-color: var(--colour4);
+}
+
+.colour5 {
+    background-color: var(--colour5);
+}
+
+.monoton-regular {
+    font-family: "Monoton", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#nav {
+    height: 150px;
+    width: 100%;
+    margin: auto;
+    box-shadow: 0px 5px var(--colour2), inset 3px 3px var(--colour6);
+}
+
+.titleTable {
+    display: table;
+    width: 378px;
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+    vertical-align: middle;
+}
+
+.title, .settings {
+    display: table-cell;
+    width: 200px;
+}
+
+.title img, .settings img {
+    height: 50px;
+    width: auto;
+}
+
+.settings {
+    padding-left: 110px;
+}
+
+#screenMenu {
+    display: table;
+    margin: auto;
+    width: 399px;
+    text-align: center;
+    height: 15px;
+    margin-top: 18px;
+
+}
+
+.screenTitle {
+    display: table-cell;
+    width: 133px;
+    padding: 0px;
+    color: var(--colour2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11pt;
+}
+
+.selected {
+    position: relative;
+    color: var(--colour3);
+    font-size: 12pt;
+}
+
+.selected::after {
+    content: '';
+    position: absolute;
+    bottom: -10; /* Align at the bottom of the element */
+    left: 0;
+    width: 100%;
+    border-bottom: solid;
+    border-width: 7px;
+    border-radius: 5px;;
+}
+
+#listBox, .listDiv {
+    width: 100%;
+    height: 600px;
+    overflow: auto;
+    mask-image: linear-gradient(rgba(0,0,0,1) 94%, rgba(0,0,0,0));
+    -webkit-mask-image: -webkit-gradient(linear, left top, 
+    left bottom, from(rgba(0,0,0,1)) 88%, to(rgba(0,0,0,0)));
+    padding-bottom: 150px;
+}
+
+.listDiv {
+    position: absolute;
+    top: 0;
+    background-color: var(--colour1);
+    height: 700px;
+}
+
+.heroDiv {
+    height: 150px;
+    Width: 370px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 15px;
+    box-shadow: 8px 8px var(--colour2), inset 4px 4px var(--colour6);
+    overflow: hidden;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.heroTitle {
+    font-size: 50pt;
+    margin: 0;
+    margin-left: -7px;
+    color: var(--colour3);
+    line-height: 36pt;
+}
+
+#exerciseSearchBar {
+    margin: auto;
+    width: 370px;
+}
+
+#exerciseSearchBar input {
+    width: 360px;
+    height: 40px;
+    border-radius: 12px;
+    margin-top: 30px;
+    border-color: var(--colour1);
+    border-top: none;
+    border-left: none;
+    box-shadow: inset 5px 5px var(--colour2);
+    padding-left: 10px;
+    padding-top: 5px;
+    color: var(--colour2);
+    font-family: Arial;
+    font-weight: 550;
+    font-size: 15pt;
+    background-color: var(--colour1);
+}
+
+#exerciseSearchBar ::placeholder {
+    color: var(--colour2);
+    opacity: 0.5;
+}
+
+#exerciseSearchBar input:focus {
+    outline-color: var(--colour3);
+}
+
+.exerciseBox {
+    margin: auto;
+    width: 370px;
+    font-family: Arial;
+    font-weight: 550;
+    border-bottom: solid;
+    border-color: var(--colour2);
+    border-radius: 6px;
+}
+
+.exerciseBox h3 {
+    color: var(--colour3);
+    font-size: 15pt;
+    margin-bottom: 0;
+}
+
+.exerciseBox h4 {
+    color: var(--colour2);
+    font-size: 12pt;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+#workoutName, #workoutExit {
+    display: table-cell;
+}
+
+#workoutExit {
+    padding-right: 18px;
+}
+
+#workoutExit img {
+    height: 50px;
+}
+
+#workoutName textarea, #gymNameInput textarea {
+    color: var(--colour3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25pt;
+    font-weight: 600;
+    width: 320px;
+    height: 37.5px;
+    border: none;
+    resize: none;
+    border-radius: 10px;
+    margin-bottom: 3px;
+}
+
+#workoutName textarea:focus, #gymNameInput textarea:focus {
+    outline-color: var(--colour3);
+}
+
+#workoutOptions, .exerciseOptions {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+}
+
+.exerciseOptions {
+    margin-top: 35px;
+}
+
+#workoutOptions h3, .exerciseOptions h3 {
+    color: var(--colour3);
+    font-size: 16pt;
+}
+
+#workoutOptions h4, .exerciseOptions h4 {
+    color: var(--colour2);
+    font-size: 13pt;
+}
+
+.exercise {
+    Width: 375px;
+    border-radius: 15px;
+    box-shadow: 5px 5px var(--colour2), inset 3px 3px var(--colour6);
+    overflow: hidden;
+    display: table;
+    border-spacing: 7.5px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.set {
+    display: table-row;
+}
+
+.setType, .setInput, .setConfirm {
+    display: table-cell;
+    height: 30px;
+}
+
+.setType, .setConfirm {
+    border-radius: 10px;
+    width: 30px;
+    box-shadow: 2px 2px var(--colour2), inset 2px 2px var(--colour6);
+}
+
+.setType h2, .setConfirm h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    margin-left: 9px;
+    margin-bottom: 3px;
+    color: var(--colour1);
+    opacity: 0.5;
+}
+
+.setConfirm h2 {
+    color: var(--colour2);
+    margin-left: 7px;
+}
+
+.setInput {
+    padding-left: 5px;
+}
+
+.setInput input {
+    width: 79px;
+    height: 20px;
+    padding: 0px;
+    padding-top: 6px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 5px 5px var(--colour2);
+    text-align: center;
+    margin-top: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--colour3);
+    font-weight: 600;
+    font-size: 15pt;
+}
+
+.setInput input:focus {
+    outline-color: var(--colour3);
+}
+
+.setInput input::placeholder {
+    color: var(--colour2);
+    opacity: 0.5;
+}
+
+.setInput label {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--colour2);
+    font-weight: 600;
+}
+
+#workoutExercises .titleTable {
+    padding-left: 20px;
+    margin-bottom: -30px;
+    vertical-align: top;
+    width: 360px;
+}
+
+.exerciseName {
+    display: table-cell;
+    color: var(--colour3);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13pt;
+}
+
+.exerciseName h4 {
+    color: var(--colour2);
+    margin-top: -20px;
+    margin-left: 2px;
+}
+
+.exerciseRemove {
+    display: table-cell;
+}
+
+.exerciseRemove img {
+    height: 35px;
+    padding-top: 10px;
+    margin-left: -30px;
+    transform: translateY(20px);
+}
+
+.equipmentPopUp {
+    width: 350px;
+    border-radius: 15px;
+    background-color: var(--colour1);
+    padding: 15px;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    box-shadow: 8px 8px var(--colour2), inset 4px 4px var(--colour6);
+    top: 20%;
+}
+
+.equipment {
+    width: 330px;
+    text-align:center;
+    height: 50px;
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 8px 8px var(--colour2), inset 4px 4px var(--colour6);
+    color: var(--colour2);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.equipment h2 {
+    transform: translateY(10px);
+}
+
+#keypad {
+    width: 100%;
+    height: 350px;
+    position: fixed;
+    bottom: 0;
+}
+
+#keypadTable {
+    display: table;
+    width: 350px;
+    height: 100px;
+    margin: auto;
+    border-spacing: 9px;
+}
+
+.keypadRow {
+    display: table-row;
+}
+
+.keypadBigButton {
+    margin: auto;
+    width: 337px;
+    box-shadow: 8px 8px var(--colour2), inset 4px 4px var(--colour6);
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+    margin-top: -13px;
+    transform: translateX(2px);
+}
+
+.keypadButton {
+    display: table-cell;
+    box-shadow: 8px 8px var(--colour2), inset 4px 4px var(--colour6);
+    height: 50px;
+    border-radius: 10px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.keypadButton h2, .keypadBigButton h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--colour2);
+    font-size: 15pt;
+}
+
+.keypadButton.colour2 h2, .keypadBigButton h2 {
+    color: var(--colour1);
+}
+
+.keypadBigButton h2 {
+    transform: translateY(20px);
+}
+
+#prompt {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 8px 8px var(--colour2), inset 4px 4px var(--colour6);
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+    width: 350px;
+    max-height: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    font-size: 15pt;
+    color: var(--colour3);
+}
+
+#promptOptionTable {
+    display: table;
+    margin: auto;
+    border-spacing: 15px;
+    width: 300px;
+}
+
+.promptOption {
+    display: table-cell;
+    box-shadow: 8px 8px var(--colour2), inset 4px 4px var(--colour6);
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--colour3);
+}
+
+.promptOption.colour3 {
+    color: var(--colour1)
+}
+
+#gymSelector {
+    color: var(--colour2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10pt;
+    margin: auto;
+    width: 390px;
+    padding-top: 0;
+    margin-top: -30px;
+}
+
+#gymMenu {
+    background-color: var(--colour1);
+    box-shadow: 8px 8px var(--colour2), inset 4px 4px var(--colour6);
+    width: 390px;
+    border-radius: 0px 0px 15px 15px;
+    position:absolute;
+    overflow: hidden;
+
+}
+
+.gymOption {
+    border-bottom: solid;
+    border-color: var(--colour2);
+    border-width: 2px;
+    overflow: hidden;
+}
+.gymOption h1 {
+    color: var(--colour2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19pt;
+    margin-left: 15px;
+}
+
+.workoutBox {
+    display: table;
+    border-radius: 10px;
+    background-color: var(--colour1);
+    width: 375px;
+    margin: auto;
+    margin-top: 15px;
+    box-shadow: 8px 8px var(--colour2), inset 4px 4px var(--colour6);
+    overflow: hidden;
+    max-height: 60px;
+    height: 60px;
+    transition: max-height .3s ease;
+}
+
+.workoutBox h2 {
+    display: table-cell;
+    text-align: center;
+    color: var(--colour2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15pt;
+    padding: 15px;
+    font-weight: 100;
+}
+
+.workoutBox h2.name {
+    font-weight: 700;
+    font-size: 20pt;
+}
+
+.workoutDetails {
+    display: table-row;
+}
+
+.exerciseDetails {
+    display: table;
+    border-spacing: 5px;
+    margin-bottom: 10px;
+}
+
+.exerciseDetails h3, h2 {
+    display: table-row;
+}
+
+.exerciseDetails h2 {
+    color: var(--colour3);
+    font-weight:600;
+}
+
+.exerciseDetails h3 {
+    color: var(--colour2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    transform: translateX(25px);
+}
+
+.animationSlideRight {
+    animation-name: slideRight;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+}
+
+@keyframes slideRight {
+    0% {left: -175px;}
+    75% {left: 25px;}
+    100% {left: 0px;}
+}
+
+.animationSlideRightLong {
+    animation-name: slideRightLong;
+    animation-duration: 0.35s;
+    animation-timing-function: linear;
+}
+
+@keyframes slideRightLong {
+    0% {left: -350px;}
+    75% {left: 30px;}
+    100% {left: 0px;}
+}
+
+.animationSlideLeft {
+    animation-name: slideLeft;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+}
+
+@keyframes slideLeft {
+    0% {left: 175px;}
+    75% {left: -25px;}
+    100% {left: 0px;}
+}
+
+.animationSlideLeftLong {
+    animation-name: slideLeftLong;
+    animation-duration: 0.35s;
+    animation-timing-function: linear;
+}
+
+@keyframes slideLeftLong {
+    0% {left: 350px;}
+    75% {left: -30px;}
+    100% {left: 0px;}
+}
+
+.animationBigPushDown {
+    animation-name: bigPushDown;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+@keyframes bigPushDown {
+    50% {box-shadow: inset 4.5px 4.5px var(--colour2);
+        transform: translate3d(9px, 9px, 0);}
+    100% {box-shadow: "";
+        transform: translate3d(7.5px, 7.5px, 0);}
+}
+
+.animationBigPushUp {
+    animation-name: bigPushUp;
+    animation-duration: 0.3s;
+    animation-timing-function: linear;
+}
+
+@keyframes bigPushUp {
+    0% {box-shadow: "";
+        transform: translate3d(7.5px, 7.5px, 0);}
+    50% {box-shadow: 9px 9px var(--colour2);
+        transform: translate3d(-2px, -2px, 0);}
+    100% {box-shadow: 8px 8px var(--colour2), inset 4px 4px var(--colour6);
+        transform: translate3d(0px, 0px, 0);}
+}
+
+
+

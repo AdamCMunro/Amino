@@ -1,0 +1,107 @@
+:root {
+    --colour1: #ffecc3;
+    --colour2: #cc5600;
+    --colour3: #c2000d;
+    --colour4: #f5cb32;
+    --colour5: #418f43;
+    --colour6: #ffecc3be;
+}
+
+.testDiv {
+    height: 100px;
+    Width: 100px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px var(--colour2), inset 3px 3px var(--colour6); 
+}
+
+.colour1 {
+    background-color: var(--colour1);
+}
+
+.colour2 {
+    background-color: var(--colour2);
+}
+
+.colour3 {
+    background-color: var(--colour3);
+}
+
+.colour4 {
+    background-color: var(--colour4);
+}
+
+.colour5 {
+    background-color: var(--colour5);
+}
+
+.monoton-regular {
+    font-family: "Monoton", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.testHeroDiv {
+    height: 100px;
+    Width: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px var(--colour2), inset 3px 3px var(--colour6);
+    overflow: hidden;
+    vertical-align: middle;
+    padding: 0;
+}
+
+.testHeroTitle {
+    font-size: 85pt;
+    margin: 0;
+    margin-top: -60px;
+    margin-left: -10px;
+    color: var(--colour2);
+}
+
+.testExercise {
+    Width: 400px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 5px 5px var(--colour2), inset 3px 3px var(--colour6);
+    overflow: hidden;
+    display: table;
+    border-spacing: 7.5px;
+    padding-bottom: 5px;
+    vertical-align: middle;
+}
+
+.testSet {
+    display: table-row;
+}
+
+.testSetType, .testSetInput, .testSetConfirm {
+    display: table-cell;
+    height: 30px;
+}
+
+.testSetType, .testSetConfirm {
+    border-radius: 10px;
+    width: 30px;
+    box-shadow: 2px 2px var(--colour2), inset 2px 2px var(--colour6);
+}
+
+.testSetInput {
+    padding-left: 5px;
+}
+
+.testSetInput input {
+    width: 150px;
+    height: 30px;
+    padding: 0;
+    border-radius: 10px;
+    border: none;
+    box-shadow: inset 5px 5px var(--colour2);
+    text-align: center;
+}
+
+.testSetInput input:focus {
+    outline-color: var(--colour3);
+}
+

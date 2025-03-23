@@ -1,0 +1,1414 @@
+{
+    "exercises": [
+        {
+            "id": 1,
+            "name": "Neck Flexion",
+            "muscle": "Neck",
+            "equipment": "Cable"
+        },
+        {
+            "id": 2,
+            "name": "Neck Flexion",
+            "muscle": "Neck",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 3,
+            "name": "Neck Flexion",
+            "muscle": "Neck",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 4,
+            "name": "Neck Flexion",
+            "muscle": "Neck",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 5,
+            "name": "Neck Flexion",
+            "muscle": "Neck",
+            "equipment": "Suspension"
+        },
+        {
+            "id": 6,
+            "name": "Lateral Neck Flexion",
+            "muscle": "Neck",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 7,
+            "name": "Lateral Neck Flexion",
+            "muscle": "Neck",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 8,
+            "name": "Lateral Neck Flexion",
+            "muscle": "Neck",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 9,
+            "name": "Lateral Neck Flexion",
+            "muscle": "Neck",
+            "equipment": "Suspension"
+        },
+        {
+            "id": 10,
+            "name": "Wall Front Neck Bridge",
+            "muscle": "Neck",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 11,
+            "name": "Wall Side Neck Bridge",
+            "muscle": "Neck",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 12,
+            "name": "Neck Extension",
+            "muscle": "Neck",
+            "equipment": "Cable"
+        },
+        {
+            "id": 13,
+            "name": "Neck Extension",
+            "muscle": "Neck",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 14,
+            "name": "Neck Extension",
+            "muscle": "Neck",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 15,
+            "name": "Neck Extension",
+            "muscle": "Neck",
+            "equipment": "Suspension"
+        },
+        {
+            "id": 16,
+            "name": "Seated Neck Extension",
+            "muscle": "Neck",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 17,
+            "name": "Neck Retraction",
+            "muscle": "Neck",
+            "equipment": "Band"
+        },
+        {
+            "id": 18,
+            "name": "Wall Rear Neck Bridge",
+            "muscle": "Neck",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 19,
+            "name": "Front Raise",
+            "muscle": "Shoulders",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 20,
+            "name": "Front Raise",
+            "muscle": "Shoulders",
+            "equipment": "Cable"
+        },
+        {
+            "id": 21,
+            "name": "Front Raise",
+            "muscle": "Shoulders",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 22,
+            "name": "Front Raise",
+            "muscle": "Shoulders",
+            "equipment": "Suspension"
+        },
+        {
+            "id": 23,
+            "name": "Military Press",
+            "muscle": "Shoulders",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 24,
+            "name": "Military Press",
+            "muscle": "Shoulders",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 25,
+            "name": "Shoulder Press",
+            "muscle": "Shoulders",
+            "equipment": "Cable"
+        },
+        {
+            "id": 26,
+            "name": "Shoulder Press",
+            "muscle": "Shoulders",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 27,
+            "name": "Shoulder Press",
+            "muscle": "Shoulders",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 28,
+            "name": "Shoulder Press",
+            "muscle": "Pin-Loaded",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 29,
+            "name": "Shoulder Press",
+            "muscle": "Shoulders",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 30,
+            "name": "Arnorld Press",
+            "muscle": "Shoulders",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 31,
+            "name": "Upright Row",
+            "muscle": "Shoulders",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 32,
+            "name": "Upright Row",
+            "muscle": "Shoulders",
+            "equipment": "Cable"
+        },
+        {
+            "id": 33,
+            "name": "Upright Row",
+            "muscle": "Shoulders",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 34,
+            "name": "Upright Row",
+            "muscle": "Shoulders",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 35,
+            "name": "Lateral Raise (One Arm)",
+            "muscle": "Shoulders",
+            "equipment": "Cable"
+        },
+        {
+            "id": 36,
+            "name": "Lateral Raise",
+            "muscle": "Shoulders",
+            "equipment": "Cable"
+        },
+        {
+            "id": 37,
+            "name": "Lateral Raise",
+            "muscle": "Shoulders",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 38,
+            "name": "Lateral Raise",
+            "muscle": "Shoulders",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 39,
+            "name": "Lateral Raise",
+            "muscle": "Shoulders",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 40,
+            "name": "Y Raise",
+            "muscle": "Shoulders",
+            "equipment": "Cable"
+        },
+        {
+            "id": 41,
+            "name": "Lying Lateral Raise",
+            "muscle": "Shoulders",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 42,
+            "name": "Rear Delt Row",
+            "muscle": "Shoulders",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 43,
+            "name": "Rear Delt Row",
+            "muscle": "Shoulders",
+            "equipment": "Cable"
+        },
+        {
+            "id": 44,
+            "name": "Rear Delt Row",
+            "muscle": "Shoulders",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 45,
+            "name": "Rear Delt Row",
+            "muscle": "Shoulders",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 46,
+            "name": "Reverse Fly",
+            "muscle": "Shoulders",
+            "equipment": "Cable"
+        },
+        {
+            "id": 47,
+            "name": "Reverse Fly",
+            "muscle": "Shoulders",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 48,
+            "name": "Rear Delt Lateral Raise",
+            "muscle": "Shoulders",
+            "equipment": "Cable"
+        },
+        {
+            "id": 49,
+            "name": "Rear Delt Lateral Raise",
+            "muscle": "Shoulders",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 50,
+            "name": "Rear Delt Lateral Raise",
+            "muscle": "Shoulders",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 51,
+            "name": "Rear Delt Lateral Raise",
+            "muscle": "Shoulders",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 52,
+            "name": "Seated Rear Delt Row",
+            "muscle": "Shoulders",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 53,
+            "name": "Seated Rear Delt Row",
+            "muscle": "Shoulders",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 54,
+            "name": "Pike Press",
+            "muscle": "Shoulders",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 55,
+            "name": "Handstand Pushup",
+            "muscle": "Shoulders",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 56,
+            "name": "Rear Delt Inverted Row",
+            "muscle": "Shoulders",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 57,
+            "name": "Dip (Assisted)",
+            "muscle": "Triceps",
+            "equipment": "Assisted"
+        },
+        {
+            "id": 58,
+            "name": "Close Grip Bench Press",
+            "muscle": "Triceps",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 59,
+            "name": "Close Grip Bench Press",
+            "muscle": "Triceps",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 60,
+            "name": "Lying Tricep Extension",
+            "muscle": "Triceps",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 61,
+            "name": "Skull Crusher",
+            "muscle": "Triceps",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 62,
+            "name": "Bent-Over Triceps Extension",
+            "muscle": "Triceps",
+            "equipment": "Cable"
+        },
+        {
+            "id": 63,
+            "name": "Overhead Triceps Extension",
+            "muscle": "Triceps",
+            "equipment": "Cable"
+        },
+        {
+            "id": 64,
+            "name": "Overhead Triceps Extension",
+            "muscle": "Triceps",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 65,
+            "name": "Triceps Pushdown",
+            "muscle": "Triceps",
+            "equipment": "Cable"
+        },
+        {
+            "id": 66,
+            "name": "Triceps Pushdown (One Arm)",
+            "muscle": "Triceps",
+            "equipment": "Cable"
+        },
+        {
+            "id": 67,
+            "name": "Triceps Extension",
+            "muscle": "Triceps",
+            "equipment": "Cable"
+        },
+        {
+            "id": 68,
+            "name": "Triceps Extension",
+            "muscle": "Triceps",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 69,
+            "name": "Triceps Extension",
+            "muscle": "Triceps",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 70,
+            "name": "Tricep Kickback",
+            "muscle": "Triceps",
+            "equipment": "Cable"
+        },
+        {
+            "id": 71,
+            "name": "Tricep Kickback",
+            "muscle": "Triceps",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 72,
+            "name": "Triceps Dip",
+            "muscle": "Triceps",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 73,
+            "name": "Triceps Dip",
+            "muscle": "Triceps",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 74,
+            "name": "Dip",
+            "muscle": "Triceps",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 75,
+            "name": "Dip (Band Assisted)",
+            "muscle": "Triceps",
+            "equipment": "Assisted"
+        },
+        {
+            "id": 76,
+            "name": "Close Grip Push-up",
+            "muscle": "Triceps",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 77,
+            "name": "Bicep Curl",
+            "muscle": "Biceps",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 78,
+            "name": "Bicep Curl",
+            "muscle": "Biceps",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 79,
+            "name": "Bicep Curl",
+            "muscle": "Biceps",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 80,
+            "name": "EZ-Bar Curl",
+            "muscle": "Biceps",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 81,
+            "name": "Cable Curl",
+            "muscle": "Biceps",
+            "equipment": "Cable"
+        },
+        {
+            "id": 82,
+            "name": "Bayesian Curl (One Arm)",
+            "muscle": "Biceps",
+            "equipment": "Cable"
+        },
+        {
+            "id": 83,
+            "name": "Bayesian Curl",
+            "muscle": "Biceps",
+            "equipment": "Cable"
+        },
+        {
+            "id": 84,
+            "name": "Incline Curl",
+            "muscle": "Biceps",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 85,
+            "name": "Preacher Curl",
+            "muscle": "Biceps",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 86,
+            "name": "Preacher Curl",
+            "muscle": "Biceps",
+            "equipment": "Cable"
+        },
+        {
+            "id": 87,
+            "name": "Preacher Curl",
+            "muscle": "Biceps",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 88,
+            "name": "Preacher Curl",
+            "muscle": "Biceps",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 89,
+            "name": "Preacher Curl",
+            "muscle": "Biceps",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 90,
+            "name": "Spider Curl",
+            "muscle": "Biceps",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 91,
+            "name": "Concentration Curl",
+            "muscle": "Biceps",
+            "equipment": "Cable"
+        },
+        {
+            "id": 92,
+            "name": "Concentration Curl",
+            "muscle": "Biceps",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 93,
+            "name": "Reverse Curl",
+            "muscle": "Biceps",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 94,
+            "name": "Reverse Curl",
+            "muscle": "Biceps",
+            "equipment": "Cable"
+        },
+        {
+            "id": 95,
+            "name": "Hammer Curl",
+            "muscle": "Biceps",
+            "equipment": "Cable"
+        },
+        {
+            "id": 96,
+            "name": "Hammer Curl",
+            "muscle": "Biceps",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 97,
+            "name": "Wrist Curl",
+            "muscle": "Forearms",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 98,
+            "name": "Wrist Curl",
+            "muscle": "Forearms",
+            "equipment": "Cable"
+        },
+        {
+            "id": 99,
+            "name": "Wrist Curl",
+            "muscle": "Forearms",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 100,
+            "name": "Wrist Curl",
+            "muscle": "Forearms",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 101,
+            "name": "Wrist Curl",
+            "muscle": "Forearms",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 102,
+            "name": "Reverse Wrist Curl",
+            "muscle": "Forearms",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 103,
+            "name": "Reverse Wrist Curl",
+            "muscle": "Forearms",
+            "equipment": "Cable"
+        },
+        {
+            "id": 104,
+            "name": "Reverse Wrist Curl",
+            "muscle": "Forearms",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 105,
+            "name": "Reverse Wrist Curl",
+            "muscle": "Forearms",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 106,
+            "name": "Reverse Wrist Curl",
+            "muscle": "Forearms",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 107,
+            "name": "Seated Pronation",
+            "muscle": "Forearms",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 108,
+            "name": "Seated Supination",
+            "muscle": "Forearms",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 109,
+            "name": "Bent-Over Row",
+            "muscle": "Back",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 110,
+            "name": "Bent-Over Row",
+            "muscle": "Back",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 111,
+            "name": "Bent-Over Row",
+            "muscle": "Back",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 112,
+            "name": "Bent-Over Row (One Arm)",
+            "muscle": "Back",
+            "equipment": "Cable"
+        },
+        {
+            "id": 113,
+            "name": "Bent-Over Row (One Arm)",
+            "muscle": "Back",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 114,
+            "name": "Seated Row",
+            "muscle": "Back",
+            "equipment": "Cable"
+        },
+        {
+            "id": 115,
+            "name": "Seated Row",
+            "muscle": "Back",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 116,
+            "name": "Seated Row",
+            "muscle": "Back",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 117,
+            "name": "Incline Row",
+            "muscle": "Back",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 118,
+            "name": "High Row",
+            "muscle": "Back",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 119,
+            "name": "High Row",
+            "muscle": "Back",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 120,
+            "name": "Low Row",
+            "muscle": "Back",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 121,
+            "name": "Low Row",
+            "muscle": "Back",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 122,
+            "name": "T-Bar Row",
+            "muscle": "Back",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 123,
+            "name": "T-Bar Row",
+            "muscle": "Back",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 124,
+            "name": "Meadow's Row",
+            "muscle": "Back",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 125,
+            "name": "Inverted Row",
+            "muscle": "Back",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 126,
+            "name": "Chin-up",
+            "muscle": "Back",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 127,
+            "name": "Pull-up",
+            "muscle": "Back",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 128,
+            "name": "Chin-up (Assisted)",
+            "muscle": "Back",
+            "equipment": "Assisted"
+        },
+        {
+            "id": 129,
+            "name": "Pull-up (Assisted)",
+            "muscle": "Back",
+            "equipment": "Assisted"
+        },
+        {
+            "id": 130,
+            "name": "Pullover",
+            "muscle": "Back",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 131,
+            "name": "Pullover",
+            "muscle": "Back",
+            "equipment": "Cable"
+        },
+        {
+            "id": 132,
+            "name": "Pullover",
+            "muscle": "Back",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 133,
+            "name": "Lat Pulldown",
+            "muscle": "Back",
+            "equipment": "Cable"
+        },
+        {
+            "id": 134,
+            "name": "Lat Pulldown",
+            "muscle": "Back",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 135,
+            "name": "Lat Pulldown",
+            "muscle": "Back",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 136,
+            "name": "Lat Pulldown (One Arm)",
+            "muscle": "Back",
+            "equipment": "Cable"
+        },
+        {
+            "id": 137,
+            "name": "Lat Pullover",
+            "muscle": "back",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 138,
+            "name": "Pull-up (Band Assisted)",
+            "muscle": "Back",
+            "equipment": "Assisted"
+        },
+        {
+            "id": 139,
+            "name": "Chin-up (Band Assisted)",
+            "muscle": "Back",
+            "equipment": "Assisted"
+        },
+        {
+            "id": 140,
+            "name": "Shrug",
+            "muscle": "Traps",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 141,
+            "name": "Shrug",
+            "muscle": "Traps",
+            "equipment": "Cable"
+        },
+        {
+            "id": 142,
+            "name": "Shrug",
+            "muscle": "Traps",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 143,
+            "name": "Shrug",
+            "muscle": "Traps",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 144,
+            "name": "Shrug",
+            "muscle": "Traps",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 145,
+            "name": "Bench Press",
+            "muscle": "Chest",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 146,
+            "name": "Bench Press",
+            "muscle": "Chest",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 147,
+            "name": "Bench Press",
+            "muscle": "Chest",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 148,
+            "name": "Incline Bench Press",
+            "muscle": "Chest",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 149,
+            "name": "Incline Bench Press",
+            "muscle": "Chest",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 150,
+            "name": "Incline Bench Press",
+            "muscle": "Chest",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 151,
+            "name": "Decline Bench Press",
+            "muscle": "Chest",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 152,
+            "name": "Decline Bench Press",
+            "muscle": "Chest",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 153,
+            "name": "Decline Bench Press",
+            "muscle": "Chest",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 154,
+            "name": "Chest Fly",
+            "muscle": "Chest",
+            "equipment": "Cable"
+        },
+        {
+            "id": 155,
+            "name": "Chest Fly",
+            "muscle": "Chest",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 156,
+            "name": "Chest Fly",
+            "muscle": "Chest",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 157,
+            "name": "Chest Press",
+            "muscle": "Chest",
+            "equipment": "Cable"
+        },
+        {
+            "id": 158,
+            "name": "Chest Press",
+            "muscle": "Chest",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 159,
+            "name": "Chest Press",
+            "muscle": "Chest",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 160,
+            "name": "Incline Chest Press",
+            "muscle": "Chest",
+            "equipment": "Cable"
+        },
+        {
+            "id": 161,
+            "name": "Incline Chest Press",
+            "muscle": "Chest",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 162,
+            "name": "Incline Chest Press",
+            "muscle": "Chest",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 163,
+            "name": "Decline Chest Press",
+            "muscle": "Chest",
+            "equipment": "Cable"
+        },
+        {
+            "id": 164,
+            "name": "Decline Chest Press",
+            "muscle": "Chest",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 165,
+            "name": "Decline Chest Press",
+            "muscle": "Chest",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 166,
+            "name": "Push-up",
+            "muscle": "Chest",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 167,
+            "name": "Incline Push-up",
+            "muscle": "Chest",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 168,
+            "name": "Decline Push-up",
+            "muscle": "Chest",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 169,
+            "name": "Knee Push-up",
+            "muscle": "Chest",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 170,
+            "name": "Deficit Push-up",
+            "muscle": "Chest",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 171,
+            "name": "Push Crunch",
+            "muscle": "Abs",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 172,
+            "name": "Push Crunch",
+            "muscle": "Abs",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 173,
+            "name": "Cable Crunch",
+            "muscle": "Abs",
+            "equipment": "Cable"
+        },
+        {
+            "id": 174,
+            "name": "Crunch",
+            "muscle": "Abs",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 175,
+            "name": "Crunch",
+            "muscle": "Abs",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 176,
+            "name": "Crunch",
+            "muscle": "Abs",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 177,
+            "name": "Leg Raise",
+            "muscle": "Abs",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 178,
+            "name": "Sit-up",
+            "muscle": "Abs",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 179,
+            "name": "Hyperextension",
+            "muscle": "Back",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 180,
+            "name": "Good-Morning",
+            "muscle": "Back",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 181,
+            "name": "Good-Morning",
+            "muscle": "Back",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 182,
+            "name": "Stiff-Legged Deadlift",
+            "muscle": "Back",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 183,
+            "name": "Stiff-Legged Deadlift",
+            "muscle": "Back",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 184,
+            "name": "Stiff-Legged Deadlift",
+            "muscle": "Back",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 185,
+            "name": "Hip Thrust",
+            "muscle": "Glutes",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 186,
+            "name": "Lunge",
+            "muscle": "Legs",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 187,
+            "name": "Lunge",
+            "muscle": "Legs",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 188,
+            "name": "Lunge",
+            "muscle": "Legs",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 189,
+            "name": "Lunge",
+            "muscle": "Legs",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 190,
+            "name": "Split Squat",
+            "muscle": "Legs",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 191,
+            "name": "Split Squat",
+            "muscle": "Legs",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 192,
+            "name": "Split Squat",
+            "muscle": "Legs",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 193,
+            "name": "Split Squat",
+            "muscle": "Legs",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 194,
+            "name": "Squat",
+            "muscle": "Legs",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 195,
+            "name": "Squat",
+            "muscle": "Legs",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 196,
+            "name": "Squat",
+            "muscle": "Legs",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 197,
+            "name": "Squat",
+            "muscle": "Legs",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 198,
+            "name": "Front Squat",
+            "muscle": "Legs",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 199,
+            "name": "Front Squat",
+            "muscle": "Legs",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 200,
+            "name": "Front Squat",
+            "muscle": "Legs",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 201,
+            "name": "Safety Squat",
+            "muscle": "Legs",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 202,
+            "name": "Zercher Squat",
+            "muscle": "Legs",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 203,
+            "name": "Glute Kickback",
+            "muscle": "Glutes",
+            "equipment": "Cable"
+        },
+        {
+            "id": 204,
+            "name": "Goblet Squat",
+            "muscle": "Legs",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 205,
+            "name": "Deadlift",
+            "muscle": "Back",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 206,
+            "name": "Deadlift",
+            "muscle": "Back",
+            "equipment": "Smith Machine"
+        },
+        {
+            "id": 207,
+            "name": "Deadlift",
+            "muscle": "Back",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 208,
+            "name": "Pistol Squat",
+            "muscle": "Legs",
+            "equipment": "Bodyweight"
+        },
+        {
+            "id": 209,
+            "name": "Leg Press",
+            "muscle": "Legs",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 210,
+            "name": "Leg Press (One Leg)",
+            "muscle": "Legs",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 211,
+            "name": "Seated Leg Press",
+            "muscle": "Legs",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 212,
+            "name": "Seated Leg Press (One Leg)",
+            "muscle": "Legs",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 213,
+            "name": "Hip Abduction",
+            "muscle": "Hip Abductors",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 214,
+            "name": "Leg Extension",
+            "muscle": "Quadriceps",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 215,
+            "name": "Leg Extension",
+            "muscle": "Quadriceps",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 216,
+            "name": "Hack Squat",
+            "muscle": "Legs",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 217,
+            "name": "Glute Ham Raise",
+            "muscle": "Hamstrings",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 218,
+            "name": "Lying Leg Curl",
+            "muscle": "Hamstrings",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 219,
+            "name": "Lying Leg Curl",
+            "muscle": "Hamstrings",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 220,
+            "name": "Seated Leg Curl",
+            "muscle": "Hamstrings",
+            "equipment": "Plate-Loaded"
+        },
+        {
+            "id": 221,
+            "name": "Seated Leg Curl",
+            "muscle": "Hamstrings",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 222,
+            "name": "Nordic Curl",
+            "muscle": "Hamstrings",
+            "equipment": "Bodyweighted"
+        },
+        {
+            "id": 223,
+            "name": "Hip Adduction",
+            "muscle": "Hip Adductors",
+            "equipment": "Pin-Loaded"
+        },
+        {
+            "id": 224,
+            "name": "Standing Calf Raise",
+            "muscle": "Calves",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 225,
+            "name": "Standing Calf Raise",
+            "muscle": "Calves",
+            "equipment": "Cable"
+        },
+        {
+            "id": 226,
+            "name": "Standing Calf Raise",
+            "muscle": "Calves",
+            "equipment": "Dumbbell"
+        },
+        {
+            "id": 227,
+            "name": "Clean and Jerk",
+            "muscle": "Olympic",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 228,
+            "name": "Clean",
+            "muscle": "Olympic",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 229,
+            "name": "Push Press",
+            "muscle": "Shoulders",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 230,
+            "name": "Power Clean",
+            "muscle": "Olympic",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 231,
+            "name": "Split Jerk",
+            "muscle": "Olympic",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 232,
+            "name": "Snatch",
+            "muscle": "Olympic",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 233,
+            "name": "Power Snatch",
+            "muscle": "Olympic",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 234,
+            "name": "Overhead Squat",
+            "muscle": "Legs",
+            "equipment": "Barbell"
+        },
+        {
+            "id": 235,
+            "name": "Pendulum Squat",
+            "muscle": "Legs",
+            "equipment": "Plate-Loaded"
+        }
+    ]
+}
