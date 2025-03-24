@@ -199,7 +199,7 @@ body {
     margin-bottom: 12px;
 }
 
-#workoutName, #workoutExit {
+#workoutName, #workoutExit, #settingsExit {
     display: table-cell;
 }
 
@@ -207,8 +207,46 @@ body {
     padding-right: 18px;
 }
 
-#workoutExit img {
+#workoutExit img, #settingsExit img {
     height: 50px;
+}
+
+#settingsTitle h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--colour3);
+    font-size: 30pt;
+    margin-top: -10px;
+    transform: translateY(-15px);
+    margin-right: 175px;
+}
+
+#metricDecider {
+    display:table;
+    margin: auto;
+    width: 375px;
+    color: var(--colour2);
+    font-family:Arial, Helvetica, sans-serif;
+    border-spacing: 7.5px;
+}
+
+#metricDecider h2 {
+    display: table-cell;
+    width: 100px;
+}
+
+#metricDecider h2.metricOption {
+    text-align: center;
+    width: 45px;
+    border-radius: 10px;
+    box-shadow: inset 1px 1px var(--colour6), 3px 3px var(--colour2);
+    background-color: var(--colour1);
+    opacity: 0.7;
+}
+
+#metricDecider h2.metricOption.selectedMetric {
+    box-shadow: inset 3px 3px var(--colour2);
+    color: var(--colour3);
+    opacity: 1;
 }
 
 #workoutName textarea, #gymNameInput textarea {
@@ -569,6 +607,47 @@ body {
     animation-timing-function: linear;
 }
 
+#colourTitle {
+    color: var(--colour2);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 380px;
+    margin: auto;
+    padding-left: 15px;
+}
+
+#colourSelector {
+    width: 380px;
+    display: table;
+    border-spacing: 15px;
+    margin: auto;
+    overflow:hidden;
+}
+
+#colourSelector h2, #colourSelector div.theme {
+    display: table-row;
+}
+
+.theme {
+    border-radius: 10px;
+    background-color: var(--colour1);
+    opacity: 0.5;
+}
+
+.theme.selectedTheme {
+    opacity: 1;
+}
+
+.themeColour {
+    height: 45px;
+    max-width: 30px;
+    background-color: var(--colour2);
+    display: table-cell;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px var(--colour6), 4px 4px var(--colour2);
+
+}
+
+
 @keyframes slideRight {
     0% {left: -175px;}
     75% {left: 25px;}
@@ -640,5 +719,26 @@ body {
         transform: translate3d(0px, 0px, 0);}
 }
 
+.animationClickDown {
+    animation-name: clickDown;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+}
+
+@keyframes clickDown {
+    50% {box-shadow: inset 4.75px 4.75px var(--colour2); transform: translate3d(2px, 2px, 0);}
+    100% {box-shadow: inset 3px 3px var(--colour2); transform: translate3d(0,0,0);}
+}
+
+.animationClickUp {
+    animation-name: clickUp;
+    animation-duration: 0.4s;
+    animation-timing-function: linear;
+}
+
+@keyframes clickUp {
+    50% {box-shadow: 4.75px 4.75px var(--colour2); transform: translate3d(-2px, -2px, 0);}
+    100% {box-shadow: 3px 3px var(--colour2); transform: translate3d(0px, 0px, 0);}
+}
 
 

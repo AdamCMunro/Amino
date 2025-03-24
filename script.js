@@ -10,6 +10,7 @@ const prList = [];
 const distance = 0.00019488405; //approximatetly 70 feet
 var metric = 'KG';
 
+
 if (localStorage.getItem('metric') != null)
 {
     metric = localStorage.getItem('metric');
@@ -18,8 +19,6 @@ if (localStorage.getItem('metric') != null)
 getLocalStorageList("gymList", gymList);
 getLocalStorageList("workoutList", workoutList);
 getLocalStorageList("prList", prList);
-
-console.log(gymList);
 
 if (prList.length == 0)
 {
@@ -48,6 +47,21 @@ else
     displayWorkouts();
 }
 
+let settingsButton = document.getElementsByClassName('settings')[0];
+
+
+if (settingsButton != null)
+{
+    settingsButton.addEventListener('click', settingsButtonClick);
+}
+
+let settingsExitButton = document.getElementById('settingsExit');
+
+if (settingsExitButton != null)
+{
+    settingsExitButton.addEventListener('click', settingsExitButtonClick)
+}
+
 if (screenTitle.length != 0)
 {
     screenTitle[0].addEventListener('click', moveToWorkoutScreen);
@@ -70,6 +84,16 @@ function addWorkoutEventListeners()
     endWorkout.addEventListener('click', endWorkoutClick);
     exitButton = exitButton.children[0];
     exitButton.addEventListener('click', showLeavePrompt);
+}
+
+function settingsButtonClick(evt)
+{
+    window.location.assign('settings.html');
+}
+
+function settingsExitButtonClick(evt)
+{
+    window.location.assign('index.html');
 }
 
 function getLocation() {
@@ -560,6 +584,7 @@ function createNewSet(parentElement)
     inputWeight.setAttribute('type', 'text');
     inputWeight.setAttribute('placeholder', metric);
     inputWeight.addEventListener('click', createKeypad);
+    inputWeight.readOnly = true;
     setInputWeight.appendChild(inputWeight);
 
     let setInputReps = document.createElement('div');
@@ -574,6 +599,7 @@ function createNewSet(parentElement)
     inputReps.setAttribute('type', 'text');
     inputReps.setAttribute('placeholder', '00');
     inputReps.addEventListener('click', createKeypad);
+    inputReps.readOnly = true;
     setInputReps.appendChild(inputReps);
 
     let setConfirm = document.createElement('div');
@@ -632,6 +658,8 @@ function createKeypad(evt)
             {
                 h2.innerHTML = '<';
                 keypadButton.classList.add('colour2');
+                keypadButton.removeEventListener('click', keypadButtonClick);
+                keypadButton.addEventListener('click', keypadButtonBackSpace);
             }
             else
             {
@@ -673,6 +701,12 @@ function keypadButtonClick(evt)
     console.log(number);
     target.value = target.value + number;
 
+}
+
+function keypadButtonBackSpace(evt)
+{
+    let target = evt.currentTarget.target;
+    target.value = target.value.split(0, target.value.length - 1)
 }
 
 function hideKeypad()
