@@ -53,10 +53,10 @@ if (settingsExitButton != null)
 }
 
 if (gymSelector != null)
-    {
-        addWorkoutEventListeners()
-    }
-if (settingsExitButton != null)
+{
+    addWorkoutEventListeners()
+}
+else if (settingsExitButton != null)
 {
 }
 else
