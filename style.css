@@ -627,7 +627,6 @@ body {
     display: table;
     border-spacing: 15px;
     margin: auto;
-    overflow:hidden;
 }
 
 #colourSelector h2, #colourSelector div.theme {
@@ -638,6 +637,7 @@ body {
     border-radius: 10px;
     background-color: var(--colour1);
     opacity: 0.5;
+    height: 50px;
 }
 
 .theme.selectedTheme {

@@ -37,15 +37,6 @@ if (workoutOptions != null)
 
 let exitButton = document.getElementById('workoutExit');
 
-if (gymSelector != null)
-{
-    addWorkoutEventListeners()
-}
-else
-{
-    displayWorkouts();
-}
-
 let settingsButton = document.getElementsByClassName('settings')[0];
 
 
@@ -59,6 +50,18 @@ let settingsExitButton = document.getElementById('settingsExit');
 if (settingsExitButton != null)
 {
     settingsExitButton.addEventListener('click', settingsExitButtonClick)
+}
+
+if (gymSelector != null)
+    {
+        addWorkoutEventListeners()
+    }
+if (settingsExitButton != null)
+{
+}
+else
+{
+    displayWorkouts();
 }
 
 if (screenTitle.length != 0)
@@ -555,6 +558,7 @@ async function addSetClick(evt) {
     let height = exercise.scrollHeight;
     exercise.style.maxHeight = (height + 53) + 'px';
     exercise.style.height = (height + 53) + 'px';
+    exerciseOptions.style.marginTop = exerciseOptions.style.marginTop + 53;
 
     await new Promise(r => setTimeout(r, 120));
     
