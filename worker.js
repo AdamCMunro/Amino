@@ -8,6 +8,8 @@ var urlsToCache = [
   './style.css'
 ];
 
+caches.delete(CACHE_NAME);
+
 self.addEventListener('install', function(event) {
   // Perform install steps
   event.waitUntil(
