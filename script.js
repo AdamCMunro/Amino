@@ -19,8 +19,6 @@ getLocalStorageList("gymList", gymList);
 getLocalStorageList("workoutList", workoutList);
 getLocalStorageList("prList", prList);
 
-console.log(gymList);
-
 if (prList.length == 0)
 {
     initialisePrList();
@@ -48,6 +46,21 @@ else
     displayWorkouts();
 }
 
+let settingsButton = document.getElementsByClassName('settings')[0];
+
+
+if (settingsButton != null)
+{
+    settingsButton.addEventListener('click', settingsButtonClick);
+}
+
+let settingsExitButton = document.getElementById('settingsExit');
+
+if (settingsExitButton != null)
+{
+    settingsExitButton.addEventListener('click', settingsExitButtonClick)
+}
+
 if (screenTitle.length != 0)
 {
     screenTitle[0].addEventListener('click', moveToWorkoutScreen);
@@ -70,6 +83,16 @@ function addWorkoutEventListeners()
     endWorkout.addEventListener('click', endWorkoutClick);
     exitButton = exitButton.children[0];
     exitButton.addEventListener('click', showLeavePrompt);
+}
+
+function settingsButtonClick(evt)
+{
+    window.location.assign('settings.html');
+}
+
+function settingsExitButtonClick(evt)
+{
+    window.location.assign('index.html');
 }
 
 function getLocation() {
@@ -429,22 +452,32 @@ function createEquipmentPopUp(list, name, id) {
         count++
 
         lDiv.addEventListener("click", addExerciseToWorkout);
+        lDiv.addEventListener('click', equipmentChoiceClick);
 
     })
 
 }
 
-function addExerciseToWorkout(evt) {
+function equipmentChoiceClick(evt)
+{
+    doAnimation(evt.currentTarget, 'BigPushDown');
+}
+
+async function addExerciseToWorkout(evt) {
     
+    let target = evt.currentTarget;
+
+    await new Promise(r => setTimeout(r, 305));
+
     let equipmentPopUp = document.getElementsByClassName('equipmentPopUp')[0];
     equipmentPopUp.remove();
 
     let listDiv = document.getElementsByClassName('listDiv')[0];
     listDiv.remove();
 
-    let name = evt.currentTarget.name;
-    let equipment = evt.currentTarget.equipment;
-    let id = evt.currentTarget.exerciseID;
+    let name = target.name;
+    let equipment = target.equipment;
+    let id = target.exerciseID;
 
     createNewExercise(name, equipment, id);
 }
@@ -476,7 +509,7 @@ function createNewExercise(name, equipment, id)
     exerciseRemove.addEventListener('click', exerciseRemoveClick);
 
     let img = document.createElement('img');
-    img.setAttribute('src', 'exit_button.svg');
+    img.setAttribute('src', 'exit_button0.svg');
     exerciseRemove.appendChild(img);
 
     let exercise = document.createElement('div');
@@ -514,11 +547,17 @@ function exerciseRemoveClick(evt) {
     }
 }
 
-function addSetClick(evt) {
+async function addSetClick(evt) {
     let exerciseOptions = evt.currentTarget.parentElement;
     
     let exercise = getCurrentExercise(exerciseOptions);
+    console.log(exercise);
+    let height = exercise.scrollHeight;
+    exercise.style.maxHeight = (height + 53) + 'px';
+    exercise.style.height = (height + 53) + 'px';
 
+    await new Promise(r => setTimeout(r, 120));
+    
     createNewSet(exercise);
 
     if (exercise.children.length < 2)
@@ -560,6 +599,7 @@ function createNewSet(parentElement)
     inputWeight.setAttribute('type', 'text');
     inputWeight.setAttribute('placeholder', metric);
     inputWeight.addEventListener('click', createKeypad);
+    inputWeight.readOnly = true;
     setInputWeight.appendChild(inputWeight);
 
     let setInputReps = document.createElement('div');
@@ -574,6 +614,7 @@ function createNewSet(parentElement)
     inputReps.setAttribute('type', 'text');
     inputReps.setAttribute('placeholder', '00');
     inputReps.addEventListener('click', createKeypad);
+    inputReps.readOnly = true;
     setInputReps.appendChild(inputReps);
 
     let setConfirm = document.createElement('div');
@@ -632,6 +673,8 @@ function createKeypad(evt)
             {
                 h2.innerHTML = '<';
                 keypadButton.classList.add('colour2');
+                keypadButton.removeEventListener('click', keypadButtonClick);
+                keypadButton.addEventListener('click', keypadButtonBackSpace);
             }
             else
             {
@@ -675,6 +718,12 @@ function keypadButtonClick(evt)
 
 }
 
+function keypadButtonBackSpace(evt)
+{
+    let target = evt.currentTarget.target;
+    target.value = target.value.substring(0, (target.value).length - 1);
+}
+
 function hideKeypad()
 {
     let keypad = document.getElementById('keypad');
@@ -690,6 +739,10 @@ function removeSetClick(evt)
     let exerciseOptions = evt.currentTarget.parentElement;
     
     let exercise = getCurrentExercise(exerciseOptions);
+
+    let height = exercise.scrollHeight;
+    exercise.style.height = '0px';
+    exercise.style.maxHeight = (height - 53) + 'px';
 
     removeSet(exercise, evt.currentTarget);
 }
@@ -750,6 +803,8 @@ function showPrompt(message, option)
         h2.innerHTML = option[i];
         promptOption.appendChild(h2);
     }
+
+    doAnimation(prompt, 'SlideUp');
 }
 
 function showLeavePrompt()
@@ -801,7 +856,6 @@ function endWorkoutClick()
 
     option[1].addEventListener('click', hidePrompt);
     option[1].addEventListener('click', saveWorkout);
-    option[1].addEventListener('click', showEndWorkoutPopUp);
 }
 
 function saveWorkout()
@@ -828,6 +882,8 @@ function saveWorkout()
 
     const workout = {id:workoutList.length, name:workoutName, gym:gym, date:date, exercises:exercises, prs:noOfPR}
     console.log(workout);
+
+    showEndWorkoutPopUp(noOfPR);
 
     workoutList.push(workout);
 
@@ -884,9 +940,14 @@ function getSetData(setArr, id)
     return setList;
 }
 
-function showEndWorkoutPopUp()
+function showEndWorkoutPopUp(noOfPR)
 {
+    showPrompt('Well Done! You got ' + noOfPR + "PR's!", ["Done"]);
+    
+    let promptOption = document.getElementsByClassName('promptOption')[0];
 
+    promptOption.addEventListener('click', hidePrompt);
+    promptOption.addEventListener('click', settingsExitButtonClick)
 }
 
 function setCurrentGym(location)
@@ -1272,4 +1333,16 @@ function doAnimation(element, animation)
         element.classList.remove('animation' + animation);
     }
 
+}
+
+function changeColourTheme(theme)
+{
+    var r = document.querySelector(':root');
+    console.log('ah!');
+    for (let i = 0; i < theme.length; i++)
+    {
+        r.style.setProperty('--colour' + (i+1), theme[i]);
+    }
+    let exitImage = document.getElementById('settingsExit').children[0];
+    exitImage.src = 'exit_button' + selectedTheme + '.svg';
 }
