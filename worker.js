@@ -19,8 +19,6 @@ self.addEventListener('install', function(event) {
   );
 });
 
-caches.delete(CACHE_NAME);
-
 self.addEventListener('fetch', function(event) {
   event.respondWith(
     caches.match(event.request)
